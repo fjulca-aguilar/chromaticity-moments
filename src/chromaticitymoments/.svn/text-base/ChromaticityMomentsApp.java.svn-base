@@ -1,0 +1,152 @@
+/*
+ * ChromaticityMomentsApp.java
+ */
+
+package chromaticitymoments;
+
+import chromaticitymoments.Algorithms.ChromaticityMoments;
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.awt.image.DirectColorModel;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
+import javax.imageio.ImageIO;
+import org.jdesktop.application.Application;
+import org.jdesktop.application.SingleFrameApplication;
+
+/**
+ * The main class of the application.
+ */
+public class ChromaticityMomentsApp extends SingleFrameApplication {
+
+    /**
+     * At startup create and show the main frame of the application.
+     */
+    @Override protected void startup() {
+        show(new ChromaticityMomentsView(this));
+    }
+
+    /**
+     * This method is to initialize the specified window by injecting resources.
+     * Windows shown in our application come fully initialized from the GUI
+     * builder, so this additional configuration is not needed.
+     */
+    @Override protected void configureWindow(java.awt.Window root) {
+    }
+
+    /**
+     * A convenient static getter for the application instance.
+     * @return the instance of ChromaticityMomentsApp
+     */
+    public static ChromaticityMomentsApp getApplication() {
+        return Application.getInstance(ChromaticityMomentsApp.class);
+    }
+
+    /**
+     * Main method launching the application.
+     */
+    public static void main(String[] args) throws IOException {
+        launch(ChromaticityMomentsApp.class, args);
+        
+//         int Xs=10;
+//         int Ys=10;
+        
+        ////////// testing image manipulation
+//        BufferedImage imagem = null;
+//        try {
+//                imagem = ImageIO.read(new File("Bark.0000.jpg"));
+//        } catch (IOException e) {
+//            System.out.println("error reading the image");
+//        }
+//        
+//        int w = imagem.getWidth();
+//        int h = imagem.getHeight();
+//        int[] pixels = imagem.getRGB(0, 0, w, h, null, 0, w);
+//        Random r = new Random();
+//        Color c;
+//        int [][] R=new int[h][w];
+//        int [][] G=new int[h][w];
+//        int [][] B=new int[h][w];
+//        //int r,g b;
+//        for (int row = 0; row < h; row++) {
+//            for (int col = 0; col < w; col++) {
+//                c=new Color(imagem.getRGB(col, row));
+//                
+//                R[row][col]=c.getRed();
+//                G[row][col]=c.getGreen();//((DirectColorModel)imagem.getColorModel()).getGreen(i*h+j);
+//                B[row][col]=c.getBlue();//((DirectColorModel)imagem.getColorModel()).getBlue(i*h+j);                
+//            }                        
+//        }
+//        
+//        ChromaticityMoments cm=new ChromaticityMoments();
+//        cm.calculateCM(R, G, B, Xs, Ys);
+//        System.out.println(cm.getMd());
+//        System.out.println(cm.getMt());
+        
+         
+        
+        /////////////////////////////////////////////
+//        for (int col = 0; col < w; col++) {
+//          for (int lin = 0; lin < h; lin++) {
+//            pixels[w * lin + col] =
+//              new Color(R[lin][col], G[lin][col],B[lin][col]).getRGB();
+//          }
+//        }
+//
+//        imagem.setRGB(0, 0, w, h, pixels, 0, w);
+//        ImageIO.write(imagem, "PNG", new File("f.png"));
+
+        ///////////////////////
+        
+//        ChromaticityMoments cm=new ChromaticityMoments();
+//        ArrayList<Double> lx=new ArrayList<Double>();
+//        ArrayList<Double> ly=new ArrayList<Double>();
+//        
+//        lx.add(0.3);
+//        lx.add(0.45);
+//        lx.add(0.89);
+//        lx.add(0.6);
+//        lx.add(0.1);
+//        
+//        ly.add(0.99);
+//        ly.add(0.45);
+//        ly.add(0.89);
+//        ly.add(0.6);
+//        ly.add(0.1);
+//        
+//                
+
+//         
+//         //System.out.println("0 a la 0 "+Math.pow(0,0));
+//         
+//         int[][] d=cm.calculateDistribution(lx, ly, Xs, Ys);
+//         
+//         ArrayList<Integer> l=cm.Approximate(d, Xs, Ys);
+//         
+//         for (Integer integer : l) {
+//             System.out.println(integer);
+//          }
+//         
+//         for (int i = 0; i < d.length; i++) {
+//            int[] is = d[i];
+//             for (int j = 0; j < is.length; j++) {
+//                 System.out.println("pos "+i+" "+ j+" = "+ d[i][j]);
+//                 
+//             }
+//        }
+//         
+//        int[][] t=cm.calculateTraceFromDistribution(d);
+//          
+//        System.out.println("t");
+//        for (int i = 0; i < t.length; i++) {
+//            int[] is = t[i];
+//            System.out.println("row: "+i);
+//            for (int j = 0; j < is.length; j++) {
+//                System.out.println(is[j]);
+//            }
+//        }
+    }
+}

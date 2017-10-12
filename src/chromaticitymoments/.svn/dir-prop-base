@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 206
+._.DS_Store
+._ChromaticityMomentsAboutBox.form
+._ChromaticityMomentsAboutBox.java
+._ChromaticityMomentsApp.java
+._ChromaticityMomentsView.form
+._ChromaticityMomentsView.java
+._PanImage.form
+._PanImage.java
+
+END

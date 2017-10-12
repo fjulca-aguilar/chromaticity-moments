@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/ChromaticityMoments/src/chromaticitymoments/Util
+END
+BufferedImageBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/ChromaticityMoments/src/chromaticitymoments/Util/BufferedImageBuilder.java
+END
+ProcesamientoDeImagenes.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4/trunk/ChromaticityMoments/src/chromaticitymoments/Util/ProcesamientoDeImagenes.java
+END
+Utilitarios.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/ChromaticityMoments/src/chromaticitymoments/Util/Utilitarios.java
+END
+PPM.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/ChromaticityMoments/src/chromaticitymoments/Util/PPM.java
+END
+ReadObjectInFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/4/trunk/ChromaticityMoments/src/chromaticitymoments/Util/ReadObjectInFile.java
+END
+ImageCM.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/ChromaticityMoments/src/chromaticitymoments/Util/ImageCM.java
+END
+OutputObjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/ChromaticityMoments/src/chromaticitymoments/Util/OutputObjects.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/ChromaticityMoments/src/chromaticitymoments/Util/Util.java
+END

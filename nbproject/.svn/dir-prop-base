@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 82
+private
+._build-impl.xml
+._genfiles.properties
+._project.properties
+._project.xml
+
+END
