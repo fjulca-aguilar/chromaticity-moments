@@ -1,4 +1,4 @@
-# chromaticity-moments
+# Chromaticity-moments
 Implementation of the image retrieval technique described in the paper: "Image content-based retrieval using chromaticity moments".
 
 For illustration, this repo includes part of the VisTex database (http://vismod.media.mit.edu/vismod/imagery/VisionTexture/) and a visulization tool.
